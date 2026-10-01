@@ -153,7 +153,7 @@ def instances() -> List:
                 if found:
                     idp_name = "%s [%s]" % (idp_name, data[idp]["country"])
                 else:
-                    pass  # it's a duplicate within it's own country
+                    pass  # it's a duplicate within its own country
 
             idp_names.add(idp_name)
 
